@@ -1,0 +1,32 @@
+body {
+    font-family: Poppins;
+    font-size: 24px;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color:darkgrey;
+    padding: 20px;
+
+    display: block; /* TODO : change to flex and make it wrap  */
+    justify-content: space-between;
+    align-items: center;
+    
+    /* TODO : make its position sticky ( Hint : you have to set top: 0 ) */
+}
+
+
+/* add post button */
+
+.add-post{
+    background-color: rgba(73, 253, 91, 0.8);
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1rem ;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 2rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}

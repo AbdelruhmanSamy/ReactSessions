@@ -1,0 +1,63 @@
+/* grid items  */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    
+    margin:5% 10%;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color:#F7F7F7 ;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-height: 700px;
+
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.grid-item:hover {
+    background-color: #c5c5c5;
+    color: black;
+}
+
+.grid-item:nth-child(even) {
+    background-color: #E3F2FD;
+
+    color: black;
+}
+
+.grid-item:nth-child(even):hover {
+    background-color: #a1bdd0;
+
+
+}
+
+.delete-button{
+    background-color: rgba(253, 91, 91, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 1rem;
+    color: white;
+    
+    padding: 1rem 3rem;
+    margin: 2rem;
+    margin-bottom: 0;
+    
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.delete-button:hover{
+    background-color: rgba(195, 71, 71, 0.8);
+
+    color: white;
+}
