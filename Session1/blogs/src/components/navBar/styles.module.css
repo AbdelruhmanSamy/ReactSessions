@@ -1,0 +1,33 @@
+/* NavBar.css */
+
+.navbar {
+    background-color: #2c3e50; /* Dark blue/gray background */
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+    font-size: 24px;
+    color: #ecf0f1; /* Light gray/white text */
+    margin: 0;
+}
+
+.navbar h1:hover {
+    color: #3498db; /* Light blue on hover */
+    cursor: pointer;
+}
+
+.navbar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #3498db; /* Light blue on hover */
+}
