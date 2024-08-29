@@ -1,6 +1,6 @@
 # Task Session 1
 ## Before starting in the project
-- It's recommended to watch this video:[React Crash Course](https://www.youtube.com/watch?v=SqcY0GlETPk)
+- It's recommended to watch this video: [React Crash Course](https://www.youtube.com/watch?v=SqcY0GlETPk)
 - Search about how to use "axios"
 ## For the project
 1. At the begining there will be nothing working, so it's okay.
