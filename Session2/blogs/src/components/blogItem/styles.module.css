@@ -1,0 +1,32 @@
+/* BlogItem.css */
+
+.blog {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.blog:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog h1 {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.blog h2 {
+    font-size: 18px;
+    margin: 0;
+    color: #555;
+}
+
+.blog h2::before {
+    content: "Written by ";
+    font-weight: normal;
+    font-style: italic;
+}

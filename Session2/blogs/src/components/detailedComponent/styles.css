@@ -1,0 +1,42 @@
+/* Style for the DetailedItem component */
+
+.detailed-item {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .detailed-item h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .detailed-item h3 {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .detailed-item p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .detailed-item p:first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .detailed-item {
+    text-align: left;
+    word-wrap: break-word;
+  }
